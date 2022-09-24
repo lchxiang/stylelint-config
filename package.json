@@ -1,20 +1,20 @@
 {
-  "name": "@lchxiang/style-lint",
-  "version": "1.0.1",
+  "name": "@lchxiang/stylelint-config",
+  "version": "1.0.2",
   "description": "",
   "keywords": [],
   "license": "MIT",
-  "homepage": "https://github.com/lchxiang/style-lint#readme",
+  "homepage": "https://github.com/lchxiang/stylelint-config#readme",
   "bugs": {
-    "url": "https://github.com/lchxiang/style-lint/issues"
+    "url": "https://github.com/lchxiang/stylelint-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lchxiang/style-lint.git"
+    "url": "git+https://github.com/lchxiang/stylelint-config.git"
   },
   "author": "榴齿含香 (https://github.com/lchxiang)",
   "scripts": {
-    "release": "bumpp package.json  pnpm publish"
+    "release": "bumpp package.json &&  pnpm publish "
   },
   "files": [
     "index.js"
