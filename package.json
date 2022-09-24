@@ -1,0 +1,43 @@
+{
+  "name": "@lchxiang/style-lint",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "https://github.com/lchxiang/style-lint#readme",
+  "bugs": {
+    "url": "https://github.com/lchxiang/style-lint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lchxiang/style-lint.git"
+  },
+  "author": "榴齿含香 (https://github.com/lchxiang)",
+  "scripts": {
+    "release": "bumpp package.json  pnpm publish"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependenciesMeta": {
+    "vue": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "bumpp": "^8.2.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recommended-less": "^1.0.4",
+    "stylelint-config-standard": "^28.0.0",
+    "stylelint-config-standard-vue": "^1.0.0",
+    "stylelint-order": "^5.0.0"
+  },
+  "devDependencies": {
+    "postcss-html": "^1.5.0",
+    "stylelint": "^14.12.1"
+  }
+}
