@@ -14,8 +14,6 @@ module.exports = {
     'string-quotes': 'double', 
     'indentation': 2,
     'unit-case':null,
-    'color-hex-case': 'upper',
-    'color-hex-length': 'long',
     'rule-empty-line-before': 'never',
     'font-family-no-missing-generic-family-keyword': null,
     'block-opening-brace-space-before':'always',
